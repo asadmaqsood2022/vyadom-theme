@@ -1,0 +1,1139 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body, input, textarea,button{
+	font-size: 16px;
+	color: #4e4e4e;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+a {
+	color: #262b6a;
+	outline: none;
+	transition: 0.3s all ease;
+	display: inline-block;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* Container */
+.container {
+	max-width: 1135px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/* Container End */
+
+/* header css starts here */
+.header .header-top{
+	background-color: #F2F2F2;
+	padding: 13px 0;
+}
+.header .header-top-inner{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-top .vyadom p{
+	color: #666666;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.vyadom-contact ul{
+	display: flex;
+}
+.vyadom-contact ul li{
+	margin-right: 25px;
+}
+.vyadom-contact ul li:last-child{
+	margin-right: 0px;
+}
+.vyadom-contact ul li a{
+	font-size: 14px;
+	line-height: 22px;
+	color: #666666;
+	font-weight: 400;
+}
+.menu-bar .menu-inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.menu-bar .menu-inner ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu-bar{
+	padding: 30px 0;
+}
+.menu-bar .menu-inner ul li{
+	margin-right: 30px;
+}
+.menu-bar .menu-inner ul li:last-child{
+	margin-right: 0;
+}
+.menu-bar .menu-inner ul li a{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #393939;
+	text-transform: uppercase;
+}
+a.mobilemenu-btn{
+	display: none;
+}
+/* header css ends here */
+/* banner css starts here */
+.banner{
+	background-image: url(../images/banner-img.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 210px 0;
+}
+.banner::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 1;
+}
+.banner-inner{
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+}
+.banner-inner h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 56px;
+	font-weight: bolder;
+}
+.banner-inner p{
+	margin: 15px 0;
+	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+}
+.banner-inner a{
+	border: 2px solid transparent;
+	background-color: #FFB619;
+	color: #fff;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+	padding: 15px 35px;
+}
+.banner-inner a:hover{
+	border: 2px solid #FFB619;
+	background-color: transparent;
+}
+/* banner css end here */
+/* vyadom-aviation section css starts here */
+.vyadom-aviation{
+	padding-top: 110px;
+	padding-bottom: 85px;
+}
+.aviation-heading{
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 900;
+	color: #333333;
+}
+.aviation-info h3{
+	margin-top: 40px;
+}
+.aviation-info p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+	font-weight: 400;
+	margin-top: 60px;
+}
+.aviation-img{
+	width: max-content;
+	margin-left: auto;
+}
+/* vyadom-aviation section css starts here */
+/* we offer section css starts here */
+.we-offer{
+	background-color: #F9F9F9;
+	padding-top: 40px;
+	padding-bottom: 110px;
+}
+.we-offer h3{
+	text-align: center;
+}
+.supply-managemnet{
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.supply-managemnet .management-img{
+	width: 260px;
+}
+.supply-managemnet .management-img img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+.supply-managemnet .management-info{
+	flex: 1;
+	padding: 42px 27px 32px 24px;
+}
+.supply-managemnet .management-info h4{
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 900;
+	color: #333333;
+}
+.supply-managemnet .management-info p{
+	color: #666666;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 37px;
+	display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.supply-managemnet .management-info a{
+	font-size: 11px;
+	line-height: 17px;
+	font-weight: 900;
+	color: #1C3E9B;
+	display: flex;
+	align-items: center;
+}
+.supply-managemnet .management-info a img{
+	margin-left: 20px;
+}
+.offer-inner{
+	margin-top: 27px;
+}
+.offer-inner .integration{
+	margin-top: 53px;
+}
+.offer-inner .integration:nth-child(odd){
+	padding-left: 0 !important;
+}
+.offer-inner .integration:nth-child(even){
+	padding-right: 0 !important;
+}
+/* we offer section css ends here */
+/* location section css starts here */
+.location-wrapper{
+	padding: 90px 0 85px 0;
+}
+.location-inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+.location-inner h3{
+	margin-bottom: 70px;
+}
+.location-inner .location{
+	width: 470px;
+}
+.location-inner .get-quote{
+	flex: 1;
+	margin-left: 60px;
+}
+.contact-form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contact-form .form-group{
+	width: 46%;
+	margin-bottom: 20px;
+}
+.contact-form .form-group:nth-child(5){
+	width: 100%;
+}
+.contact-form .form-group input{
+	border: unset;
+	background-color: #F9F9F9;
+	padding: 13px 15px 13px 21px;
+	height: auto;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #666666;
+}
+.contact-form .form-group input::placeholder{
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #666666;
+}
+.contact-form .form-group textarea{
+	border: unset;
+	background-color: #F9F9F9;
+	padding: 13px 15px 13px 21px;
+	height: auto;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #666666;
+	resize: none;
+}
+.contact-form .btn-primary{
+	border-radius: unset;
+	border: unset;
+	margin-top: 15px;
+	background-color: #FFB619;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #fff;
+	padding: 14px 42px;
+	text-transform: uppercase;
+}
+.contact-form .btn-primary:hover{
+	background-color: #666666;
+}
+/* location section css ends here */
+/* our products css starts here */
+.our-products{
+	background-image: url(../images/products-img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 40px;
+	padding-bottom: 85px;
+}
+.our-products h3{
+	text-align: center;
+	margin-bottom: 125px;
+}
+.our-products .avionics:nth-child(1){
+	padding-left: 0px;
+}
+.our-products .avionics:last-child{
+	padding-right: 0px;
+}
+.product-inner img{
+	width: 100%;
+	height: 336px;
+	object-fit: cover;
+}
+.product-inner h5{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 900;
+	color: #333333;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+.product-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+	padding-right: 25px;
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-inner a{
+	font-size: 14px;
+	line-height: 22px;
+	color: #1C3E9B;
+	font-weight: 900;
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+}
+.product-inner a img{
+	margin-left: 10px;
+	width: max-content;
+	height: auto;
+}
+/* our products css starts here */
+/* footer css starts here */
+.footer-top{
+	background-color: #1A1A1A;
+	padding-top: 80px;
+	padding-bottom: 55px;
+}
+.footer-inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-inner .footer-logo{
+	width:	32%;
+}
+.footer-logo p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+.footer-inner .contact-us{
+	width: 27%;
+	margin-left: 80px;
+}
+.contact-us h4{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 50px;
+} 
+.contact-us ul li{
+	margin-bottom: 20px;
+} 
+.contact-us ul li:last-child{
+	margin-bottom: 0;
+}
+.contact-us ul li a{
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #fff;
+} 
+.footer-inner .gallery{
+	flex: 1;
+	padding-left: 100px;
+}
+.gallery h5{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 35px;
+}
+.gallery ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+.gallery ul li{
+	margin-right: 8px;
+	margin-bottom: 3px;
+	width: 30%;
+}
+.gallery ul li:nth-child(3n){
+	margin-right: 0px;
+}
+.copy-rights{
+	background-color: #0D0D0D;
+	padding: 19px 0px;
+	text-align: center;
+}
+.copy-rights p{
+	color: #666666;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.copy-rights p a{
+	color: #FFB700;
+}
+/* footer css ends here */
+/* about us css starts here */
+.about-banner{
+	background-image: url(../images/about-banner.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 125px 0;
+	position: relative;
+}
+.about-banner::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.about-banner h2{
+	font-size: 40px;
+	line-height: 46px;
+	color: #fff;
+	font-weight: 900;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+/* about us css ends here */
+
+/* clients section css starts here */
+.clients{
+	padding-top: 145px;
+}
+.about-vyadom{
+	margin-bottom: 185px;
+	text-align: center;
+}
+.about-vyadom h3{
+	margin-bottom: 30px;
+}
+.about-vyadom p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #666666;
+}
+.clients-inner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.clients-inner .infrastructure{
+	width: 40%;
+	display: flex;
+	margin-bottom: 100px;
+}
+.clients-inner .infrastructure:nth-child(even){
+	margin-right: 0px;
+}
+.infrastructure .infrastructure-img{
+	width: 60px;
+}
+.infrastructure .infrastructure-info{
+	flex: 1;
+	margin-left: 20px;
+}
+.infrastructure .infrastructure-info p{
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #666666;
+}
+/* clients section css ends here */
+/* call back section css starts here */
+.call-back{
+	background-color: #F9F9F9;
+	padding-top: 55px;
+	padding-bottom: 100px;
+}
+.call-back h3{
+	text-align: center;
+	margin-bottom: 75px;
+}
+.call-back .contact-form{
+	max-width: 88%;
+	margin: 0 auto;
+}
+.call-back .contact-form .form-group{
+	width: 28%;
+}
+.call-back .contact-form .form-group:nth-child(4){
+	width: 100%;
+}
+.call-back .contact-form .form-group input, .call-back .contact-form .form-group textarea{
+	background-color: #fff;
+	-moz-appearance: none;
+}
+.call-back .contact-form button{
+	margin: 0 auto;
+}
+/* call back section css ends here */
+/* member section css starts here */
+.member-outer{
+	padding: 75px 0 120px;
+}
+.member-outer h3{
+	text-align: center;
+	margin-bottom: 110px;
+}
+.aerokool-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.aerokool-wrapper .aerokel{
+	width:28%;
+	text-align: center;
+}
+.aerokool-wrapper .aerokel h6{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 900;
+	color: #333333;
+	margin-top: 7px;
+	margin-bottom: 15px;
+
+}
+.aerokool-wrapper .aerokel p{
+	color: #666666;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	padding: 0 20px;
+}
+.member-inner .carousel-indicators{
+	margin: 0 auto;
+	bottom: -50px;
+}
+.member-inner .carousel-indicators li{
+	width: 14px;
+	height: 14px;
+	background-color: #D4D4D4;
+    border-radius: 50%;
+	margin: 0;
+	margin-right: 10px;
+}
+.member-inner .carousel-indicators li.active{
+	background-color: #1C3E9B;
+}
+/* member section css starts here */
+
+/* product   page css starts here*/
+.product-banner{
+	background-image: url(../images/product-banner.png);
+}
+.products-parts{
+	background-image: unset;
+}
+/* product   page css ends here*/
+/* product details page css starts here */
+.product-details{
+	padding-top: 140px;
+	padding-bottom: 170px;
+}
+.product-details .heading-outer{
+	margin-bottom: 60px;
+}
+.heading-outer h3{
+	display: table;
+	position: relative;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+.heading-outer h3::after{
+	content: '';
+	width: 60px;
+	height: 3px;
+	background-color: #1C3E9B;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.product-details-inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+.product-details-inner .product-tab{
+	width: 270px;
+}
+.product-details-inner .product-tab-info{
+	flex: 1;
+	padding-left: 90px;
+}
+.product-tab nav{
+	margin-bottom: 30px;
+}
+.product-tab nav .nav .nav-item{
+	border: unset;
+	border-radius: 0;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #000;
+	padding: 13px 16px;
+	text-align: left;
+}
+.product-tab nav .nav .nav-item.active{
+	background-color: #1C3E9B;
+	color: #fff;
+}
+.product-tab ul li {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #000;
+}
+.product-tab ul li span{
+	font-weight: bold;
+}
+.product-tab ul li a{
+	color: #000000;
+}
+.product-tab-info .tab-info h5{
+	font-size: 18px;
+	line-height: 24px;
+	color: #333333;
+	font-weight: 900;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.product-tab-info .tab-info p{
+	color:#666666;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	padding-right: 20px;
+}
+.product-tab-info .tab-info p:nth-child(4){
+	margin-bottom: 0;
+}
+.product-tab-info .tab-info ul li{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+/* product details page css ends here */
+/* contact css starts here */
+.contact-banner{
+	background-image: url(../images/contact-banner.png);
+}
+/* contact css starts here */
+/* message section css starts here */
+.message-wrapper{
+	padding-top: 85px;
+	padding-bottom: 175px;
+}
+.message-wrapper .heading-outer{
+	margin-bottom: 100px;
+}
+.message-outer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.message-outer h5{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 900;
+	color: #000;
+	margin-bottom: 20px;
+}
+.message-outer p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	font-weight: 400;
+}
+.message-form{
+	width: 45%;
+}
+.contact-text{
+	width: 45%;
+}
+.message-form form .form-group{
+	position: relative;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.message-form form .form-group::after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #707070;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 30%;
+}
+.message-form form input, .message-form form textarea{
+	width: 100%;
+	border: unset;
+	padding: 20px 0;
+	color: #000000;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	resize: unset;
+}
+.message-form form input::placeholder, .message-form form textarea::placeholder{
+	color: #000000;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+.message-form form input:focus-visible, .message-form form textarea:focus-visible{
+	outline: unset;
+}
+.information-wrap{
+	margin-top: 25px;
+	background-color: #F8F8F8;
+	padding: 50px 55px;
+}
+.information-wrap li{
+	margin-bottom: 10px;
+}
+.information-wrap li a{
+	font-size: 14px;
+	line-height: 20px;
+	font-size: 500;
+	color: #000;
+}
+.information-wrap li a i{
+	margin-right: 15px;
+	color: #000;
+	font: normal normal normal 14px/1 FontAwesome;
+}
+/* message section css starts here */
+
+
+
+
+/* responsive css starts here */
+@media(max-width:1080px){
+	.aviation-heading {
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.aviation-info h3 {
+		margin-top: 20px;
+	}
+	.banner{
+		padding: 100px 0;
+	}
+	.vyadom-aviation{
+		padding: 70px 0;
+	}
+	.aviation-info p{
+		margin-top: 30px;
+	}
+	.supply-managemnet .management-img {
+		width: 230px;
+	}
+	.we-offer{
+		padding-bottom: 70px;
+	}
+	.location-wrapper {
+		padding: 50px 0;
+	}
+	.location-inner h3 {
+		margin-bottom: 30px;
+	}
+	.location-inner .location {
+		width: 400px;
+	}
+}
+@media(max-width:991px){
+	.aviation-img {
+		width: 100%;
+	}
+	.supply-managemnet .management-img {
+		width: 100%;
+	}
+	.location-inner .location {
+		width: 270px;
+	}
+	.location-inner .get-quote {
+		flex: 1;
+		margin-left: 20px;
+	}
+	.footer-inner .contact-us {
+		margin-left: 25px;
+	}
+	.footer-inner .gallery {
+		padding-left: 30px;
+	}
+	.about-banner{
+		padding: 80px 0;
+	}
+	.clients {
+		padding-top: 40px;
+	}
+	.about-vyadom {
+		margin-bottom: 100px;
+	}
+	.clients-inner .infrastructure {
+		width: 45%;
+		margin-bottom: 50px;
+	}
+	.aerokool-wrapper .aerokel {
+		width: 30%;
+	}
+	.aerokool-wrapper .aerokel {
+		width: 30%;
+	}
+	.aerokool-wrapper .aerokel p {
+		font-size: 14px;
+		line-height: 22px;
+		padding: 0 10px;
+	}
+	.member-outer h3 {
+		margin-bottom: 50px;
+	}
+	.product-details {
+		padding: 40px 0;
+	}
+	.product-details-inner .product-tab-info {
+		padding-left: 40px;
+	}
+	.message-wrapper {
+		padding: 40px 0;
+	}
+	.information-wrap {
+		padding: 40px 30px;
+	}
+	.message-wrapper .heading-outer {
+		margin-bottom: 40px;
+	}
+}
+@media(max-width:768px){
+	.header{
+		position: relative;
+	}
+	a.mobilemenu-btn{
+		display: block;
+		position: absolute;
+		right: 20px;
+	}
+	a.mobilemenu-btn span{
+		display: block;
+		width: 30px;
+		height: 4px;
+		background-color: #000;
+		margin-bottom: 4px;
+	}
+	a.mobilemenu-btn span:last-child{
+		margin-bottom: 0;
+	}
+	.menu-bar .menu-inner ul{
+		position: absolute;
+		display: block;
+		top: 0;
+		height: 100vh;
+		width: 100%;
+		background-color: #000;
+		z-index: 5;
+		left: -100%;
+		transition: 0.3s all ease-in-out;
+	}
+	.header-mobile-menu .menu-inner ul{
+		left: 0;
+		padding: 100px 40px 0;
+	}
+	.header-mobile-menu a.mobilemenu-btn{
+		z-index: 10;
+	}
+	.header-mobile-menu a.mobilemenu-btn span{
+		background-color: #fff;
+	}
+	.header-mobile-menu a.mobilemenu-btn span:nth-child(2){
+		display: none;
+	}
+	.header-mobile-menu a.mobilemenu-btn span:nth-child(1){
+		margin-bottom: -4px;
+		transform: rotate(45deg);
+	}
+	.header-mobile-menu a.mobilemenu-btn span:nth-child(3){
+		transform: rotate(-46deg);
+	}
+	.header-mobile-menu .menu-inner ul li{
+		margin-right: 0;
+	}
+	.header-mobile-menu .menu-inner ul li a{
+		color: #fff;
+		padding: 20px 0;
+	}
+	.aviation-img {
+		margin-top: 30px;
+	}
+	.supply-managemnet .management-img {
+		height: 350px;
+	}
+	.offer-inner .integration{
+		padding: 0 !important;
+	}
+	.location-inner .location {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.location-inner .location img{
+		width: 100%;
+	}
+	.our-products .avionics{
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.our-products h3 {
+		margin-bottom: 30px;
+	}
+	.our-products{
+		padding-bottom: 20px;
+	}
+	.footer-inner .footer-logo {
+		width: 100%;
+	}
+	.footer-inner .contact-us {
+		width: 100%;
+		margin-left: 0;
+		margin: 30px 0;
+	}
+	.contact-us h4{
+		margin-bottom: 20px;
+	}
+	.footer-inner .gallery {
+		padding-left: 0;
+	}
+	.gallery ul {
+		justify-content: unset;
+	}
+	.gallery ul li img{
+		width: 100%;
+	}
+	.contact-form .form-group {
+		width: 100%;
+	}
+	.location-inner .get-quote {
+		margin-left: 0px;
+	}
+	.clients-inner .infrastructure {
+		width: 100%;
+	}
+	.infrastructure .infrastructure-img {
+		width: 50px;
+	}
+	.call-back .contact-form .form-group {
+		width: 100%;
+	}
+	.call-back .contact-form {
+		max-width: 100%;
+	}
+	.call-back h3 {
+		margin-bottom: 30px;
+	}
+	.call-back {
+		padding-bottom: 40px;
+	}
+	.aerokool-wrapper .aerokel {
+		width: 100%;
+	}
+	.member-outer {
+		padding: 40px 0;
+	}
+	.member-outer h3 {
+		margin-bottom: 20px;
+	}
+	.member-inner .carousel-indicators{
+		display: none;
+	}
+	.product-details-inner .product-tab {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.product-tab nav .nav{
+		display: block;
+	}
+	.product-details-inner .product-tab-info {
+		padding-left: 0;
+	}
+	.product-tab-info .tab-info p {
+		margin-bottom: 15px;
+	}
+	.message-form {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.contact-text {
+		width: 100%;
+	}
+}
+@media(max-width:575px){
+	.banner-inner h1 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.banner-inner a{
+		padding: 10px 25px;
+	}
+	.logo a img {
+		width: 150px;
+	}
+	.vyadom-aviation {
+		padding: 30px 0;
+	}
+	.vyadom-aviation-inner .row .col-md-6{
+		padding: 0;
+	}
+	.aviation-heading {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.aviation-info p {
+		margin-top: 20px;
+	}
+	.supply-managemnet .management-img {
+		height: 250px;
+	}
+	.supply-managemnet .management-info {
+		padding: 20px;
+	}
+	.supply-managemnet .management-info p{
+		margin-bottom: 25px;
+	}
+	.header .header-top-inner {
+		display: block;
+		flex-wrap: unset;
+		align-items: unset;
+		justify-content: unset;
+	}
+	.vyadom-contact ul {
+		display: block;
+	}
+	.header-mobile-menu a.mobilemenu-btn {
+		top: 50px;
+	}
+	.contact-form .btn-primary{
+		padding: 10px 25px;
+	}
+	.product-details .heading-outer {
+		margin-bottom: 40px;
+	}
+}
+@media(max-width:410px){
+	.information-wrap {
+		padding: 20px 10px;
+	}
+}
+/* responsive css ends here */
